@@ -1,7 +1,7 @@
 <html>
 <head>
     <div id="menu">
-        <a href="index.html"><div class="menuButton" id="home">Home</div></a>
+        <a href="index.html"><div class="menuButton" id="home">About</div></a>
         <a href="education.html"><div class="menuButton" id="education">Education</div></a>
         <a href="experience.html"><div class="menuButton" id="experience">Experience</div></a>
         <a href="projects.html"><div class="menuButton" id="projects">Projects</div></a>
@@ -9,8 +9,89 @@
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="aaa">
-        proj
+    <div id="aboutContainer" style="display: block; overflow: auto">
+        <p id="aboutTitle">Projects and Competitions</p>
+        <div id="aboutInfo">
+            <div class="smallHeader">Battlecode</div>
+            <br><br>
+            <div class="dateBox"><a target="_blank" href="https://github.com/HugoIngelsson/Battlecode-2025-SRC/">2025 Repo</a></div>
+            <ul style="width: 75%; float: left">
+               <a target="_blank" href="https://battlecode.org/">Battlecode</a> is an MIT programming strategy competition where teams develop software to 
+               control a team of virtual robots in a new game every year.
+               <br><br>
+               In 2025, our team competed in MIT as a finalist in the fog of war, turf wars game, placing 13th out of 127 college teams across the U.S. 
+               One particularly interesting component of our strategy was communication, where we had limited instructions, bits, and range to send as 
+               much pertinent as we could. For this, we created an bit encoding scheme and what we called the "robot internet", where we relayed messages
+               between each agent to solve range issues and built upon the bits from each relay iteration to construct more detailed reports.
+               <br><br>
+               Using this information containing enemy information, locations of interest, and more, we could then enact more complicated macro-level 
+               strategies where we could organize our robots to retreat and defend or gather forces in particular areas we deemed more vulnerable.
+               <br><br>
+               We also competed in 2024, when the game was capture the flag, placing 19th out of 115 U.S. college teams.
+            </ul>
+        </div>
+        <div id="aboutInfo">
+            <div class="smallHeader">CALICO</div>
+            <br><br>
+            <div class="dateBox"><a target="_blank" href="https://calico.cs.berkeley.edu/files/calicoguide.pdf">FA25 Contest</a></div>
+            <ul style="width: 75%; float: left">
+                The <a href="https://calico.cs.berkeley.edu/" target="_blank">CALICO Informatics Competition</a> is an international programming competition
+                I have participated in bi-annualy. Teams are presented with a set of problems of varying difficulty, and are awarded points for correct answers that
+                are both earlier and took less submissions to reach.
+                <br><br>
+                Our team of three divies up our problems according to our strengths and weaknesses, priotizing which tasks we think will yield the most
+                points and reward with respect to the time we estimate they'll take. Of course, at the end of the day, it's a great deal of fun working in our team
+                that has grown closer over time.
+                <br><br>
+                In Fall 2025, we placed in the top 8% (85th/1092 entrants), achieving a silver medal.<br>
+                In Spring 2024, we placed in the top 10% (81st/920 entrants), also achieving a silver medal.
+            </ul>
+        </div>
+        <div id="aboutInfo">
+            <div class="smallHeader">RSA</div>
+            <br><br>
+            <div class="dateBox"><a target="_blank" href="https://github.com/brianyen/rsa-self">GitHub Repo</a></div>
+            <ul style="width: 75%; float: left">
+                A home-cooked implementation Java of RSA encryption. I created this shortly after taking cryptography class that covered these sorts of topics, as 
+                it went moreso into the math rather than the programming aspects, so I was curious to see what kinds of challenges may appear when put into practice, 
+                and I took this as an opportunity to look deeper into concepts I had learned.
+                <br><br>
+                This project includes programs to encrypt and then decrypt a message across a public channel. Implementation-wise, I implemented the RSA algorithm,
+                an algorithm to generate appropriately large prime numbers randomly, and the Miller-Rabin primality test, along with many optimizations such as memoizations
+                needed to smoothen out the processing time with such large numbers.
+            </ul>
+        </div>
+        <div id="aboutInfo">
+            <div class="smallHeader">Web US Geography Quiz</div>
+            <br><br>
+            <div class="dateBox"><a href="https://cse110-coblenz.github.io/cse-110-project-team-4/" target="_blank">Website</a></div>
+            <ul style="width: 75%; float: left">
+                An online, educational quiz game intended to teach students trivia about the U.S. states. Includes various question modes, a timer, and a leaderboard
+                to foster a competetive spirit and create fun, learning experience.
+                <br><br>
+                Collaborated with a team of four others, going through Agile motions and exercising practices in version control, code review, CI testing, and more.
+                This project was a great opportunity to grow myself as a programmer who is more open and communicative with my teammates, and is better at understanding
+                how to best create shared understanding among us.
+            </ul>
+        </div>
+        <!--
+        <div id="aboutInfo">
+            <div class="smallHeader">Karuta</div>
+            <br><br>
+            <div class="dateBox">Link/Picture</div>
+            <ul style="width: 75%; float: left">
+                <li>Lorem Ipsum</li>
+            </ul>
+        </div>
+        <div id="aboutInfo">
+            <div class="smallHeader">Scrollytelling Data Visualizers</div>
+            <br><br>
+            <div class="dateBox">Link/Picture</div>
+            <ul style="width: 75%; float: left">
+                <li>Lorem Ipsum</li>
+            </ul>
+        </div>
+        -->
     </div>
 </body>
 </html>
