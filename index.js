@@ -2,7 +2,7 @@ let leftEl = document.getElementById("cycleLeft");
 let rightEl = document.getElementById("cycleRight");
 let imageEl = document.getElementById("aboutImage");
 
-let allFiles = ["img1.png", "img2.png"];
+let allFiles = ["img1.jpg", "img2.jpg", "img3.jpg"];
 let pathPrefix = "./img/";
 
 function cycleDirection(direction) {
